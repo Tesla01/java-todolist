@@ -8,6 +8,9 @@ public class AplikasiTodoList {
 
     // Menampilkan Todolist
     public static void showTodoList() {
+        for (var i = 0; i < model.length; i++) {
+            String todo = model[i];
+        }
     }
 
     // Menambah Todo ke List
